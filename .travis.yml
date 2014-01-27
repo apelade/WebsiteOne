@@ -15,8 +15,5 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: "ECgJzJozafPN6dlyzkDQGLUDsTVTLRCWou31YjJB5QnaJ5HNB7qfjlz++ZZ70apjmDBUaHZ7gTyYVqOW6orcbbrTCqgkenW7UcuSuWI9WJvgobakcrAqwP+dAmBNT+wOg55Q6R8+eWPNfv4zehvw4Xj1yLFNdjeYBce6vP5zF6k="
-#  app:
-#    develop: websiteone-develop
-#    master: websiteone-production
-  run: "rake db:migrate"
+    secure: ddLEdtLEZyRxafU6TbLjTrrwTfvB24wd3v/bo3PG9VdmM334GNZh7O8WWG8ez8zs9SUPS4A5b7EgLFIVjSizltkYtAJW38NtREpRhjaH07Wm4lHkCZVUpafiSgt4FH21VsDi4O/J/5/2Tb/c/QnrgCpS6yIxhfmq8bKdLg5mxoA=
+  run: rake db:migrate
