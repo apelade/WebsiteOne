@@ -14,6 +14,7 @@ script:
 - bundle exec rake spec
 deploy:
   provider: heroku
+  app: fathomless-dawn-1787
   api_key:
     secure: ddLEdtLEZyRxafU6TbLjTrrwTfvB24wd3v/bo3PG9VdmM334GNZh7O8WWG8ez8zs9SUPS4A5b7EgLFIVjSizltkYtAJW38NtREpRhjaH07Wm4lHkCZVUpafiSgt4FH21VsDi4O/J/5/2Tb/c/QnrgCpS6yIxhfmq8bKdLg5mxoA=
   run: rake db:migrate
