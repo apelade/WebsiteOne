@@ -6,7 +6,6 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link rel="shortcut icon" href="/favicon.ico?v=2" />
-
 </head>
 <body>
 <%= render 'layouts/navbar' %>
@@ -20,6 +19,12 @@
   </section>
   <div id="push"></div>
 </div>
+
+<!-- This is all it takes -->
+  <script src="https://togetherjs.com/togetherjs-min.js"></script>
+  <button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+
+
 <section id="footer">
   <%= render 'layouts/footer' %>
 </section>
